@@ -14,46 +14,46 @@ var questionOne = prompt('Do I live in Alaska?!').toLowerCase();
 if(questionOne === 'yes' || questionOne === 'y'){
 
   alert('Yes I do!');
-  // console.log(questionOne);
+  // console.log(questionOne + ' is the correct answer');
 }else {
   alert('Sorry You Guessed Wrong!!');
-  // console.log(questionOne);
+  // console.log(questionOne + ' is incorrect');
 }
 
 var questionTwo = prompt('Do I work for the Army?!').toLowerCase();
 if(questionTwo === 'yes' || questionTwo === 'y'){
 
   alert('Yes I do!');
-  // console.log(questionTwo);
+  // console.log(questionTwo + ' is the correct answer');
 }else {
   alert('Sorry You Guessed Wrong!!');
-  // console.log(questionTwo);
+  // console.log(questionTwo + ' is incorrect');
 }
 
 var questionThree = prompt('Do I love Football?!').toLowerCase();
 if(questionThree === 'no' || questionThree === 'n'){
 
   alert('That\s Right! Go hockey!');
-  // console.log(questionThree);
+  // console.log(questionThree + ' is the correct answer');
 }else {
   alert('Sorry You Guessed Wrong!! Hockey is the best!');
-  // console.log(questionThree);
+  // console.log(questionThree + ' is incorrect');
 }
 
 var questionFour = prompt('Do I ride motorcycles?!').toLowerCase();
 if(questionFour === 'yes' || questionFour === 'y'){
   alert('Yes I do! It\'s so freeing!');
-  //console.log(questionFour);
+  //console.log(questionFour + ' is the correct answer');
 }else {
   alert('Sorry You Guessed Wrong!!');
-  // console.log(questionFour);
+  // console.log(questionFour + ' is incorrect');
 }
 
 var questionFive = prompt('Have I ever been dumb enough to jump out of an airplane?!').toLowerCase();
 if(questionFive === 'yes' || questionFive === 'y'){
-  alert('Yes I\'m so stupid!');
-  // console.log(questionFive);
+  alert('Yes I\'m so stupid! Thanks for playing my game ' + userName + '!');
+  // console.log(questionFive + ' is the correct answer');
 }else {
-  alert('Sorry You Guessed Wrong!! I\'m a total idiot!');
-  // console.log(questionFive);
+  alert('Sorry You Guessed Wrong!! I\'m a total idiot! Thanks for playing my game ' + userName + '!');
+  // console.log(questionFive + ' is incorrect');
 }
