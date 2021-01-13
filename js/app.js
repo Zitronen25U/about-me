@@ -15,11 +15,9 @@ if(questionOne === 'yes' || questionOne === 'y'){
 
   alert('Yes I do!');
   // console.log(questionOne);
-  alert(questionOne);
 }else {
   alert('Sorry You Guessed Wrong!!');
   // console.log(questionOne);
-  alert(questionOne);
 }
 
 var questionTwo = prompt('Do I work for the Army?!').toLowerCase();
@@ -27,11 +25,9 @@ if(questionTwo === 'yes' || questionTwo === 'y'){
 
   alert('Yes I do!');
   // console.log(questionTwo);
-  alert(questionTwo);
 }else {
   alert('Sorry You Guessed Wrong!!');
   // console.log(questionTwo);
-  alert(questionTwo);
 }
 
 var questionThree = prompt('Do I love Football?!').toLowerCase();
@@ -39,33 +35,25 @@ if(questionThree === 'no' || questionThree === 'n'){
 
   alert('That\s Right! Go hockey!');
   // console.log(questionThree);
-  alert(questionThree);
 }else {
   alert('Sorry You Guessed Wrong!! Hockey is the best!');
   // console.log(questionThree);
-  alert(questionThree);
 }
 
 var questionFour = prompt('Do I ride motorcycles?!').toLowerCase();
 if(questionFour === 'yes' || questionFour === 'y'){
-
   alert('Yes I do! It\'s so freeing!');
   //console.log(questionFour);
-  alert(questionFour);
 }else {
   alert('Sorry You Guessed Wrong!!');
   // console.log(questionFour);
-  alert(questionFour);
 }
 
 var questionFive = prompt('Have I ever been dumb enough to jump out of an airplane?!').toLowerCase();
 if(questionFive === 'yes' || questionFive === 'y'){
-
   alert('Yes I\'m so stupid!');
   // console.log(questionFive);
-  alert(questionFive);
 }else {
   alert('Sorry You Guessed Wrong!! I\'m a total idiot!');
   // console.log(questionFive);
-  alert(questionFive);
 }
