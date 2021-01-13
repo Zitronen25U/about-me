@@ -1,0 +1,29 @@
+  body {
+    background-color: bisque;
+    color: black;
+    height: 700px;
+    width: 900px;
+    border: solid rgb(206, 135, 3) 10px; 
+    text-align: center;
+    margin: 5px 40px    
+} 
+
+ul {
+    background-color: bisque;
+    color: black
+}
+li{
+    background-color:bisque;
+    color: black;
+}
+
+#para2
+{
+    border: solid rgb(0, 0, 0) 3px;
+    background-color: lightgrey;
+}
+
+.para {
+    background-color: lightgrey;
+    border: dotted rgb(0, 0, 0);
+}
