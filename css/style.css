@@ -1,13 +1,21 @@
   body {
     background-color: bisque;
     color: black;
-    height: 1000px;
-    width: 1000px;
+    height: 768px;
+    width: 1024px;
     border: solid rgb(206, 135, 3) 10px; 
     text-align: center;
-    margin: 5px 40px    
+    margin: 100px;
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    text-indent: 30px;
 } 
 
+header{
+    font-size: 64px; 
+
+}
 ul {
     background-color: bisque;
     color: black
@@ -15,15 +23,13 @@ ul {
 li{
     background-color:bisque;
     color: black;
-}
-
-#para2
-{
-    border: solid rgb(0, 0, 0) 3px;
-    background-color: lightgrey;
+    font-size: 34px;
+    margin: 30px;
 }
 
 .para {
     background-color: lightgrey;
     border: dotted rgb(0, 0, 0);
+    text-indent: 30px;
+    margin: 30px;
 }

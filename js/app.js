@@ -10,50 +10,50 @@
 var userName = prompt('What\'s Your Name??');
 alert('Welcome ' + userName + '!! Thank\'s For Stopping bye! We\'re Going to Play a Guessing Game about.... ME!');
 
-var questionOne = prompt('Do I live in Alaska?!').toLowerCase();
-if(questionOne === 'yes' || questionOne === 'y'){
+var answerOne = prompt('Do I live in Alaska?!').toLowerCase();
+if(answerOne === 'yes' || answerOne === 'y'){
 
   alert('Yes I do!');
-  // console.log(questionOne + ' is the correct answer');
+  // console.log(answerOne + ' is the correct answer');
 }else {
   alert('Sorry You Guessed Wrong!!');
-  // console.log(questionOne + ' is incorrect');
+  // console.log(answerOne + ' is incorrect');
 }
 
-var questionTwo = prompt('Do I work for the Army?!').toLowerCase();
-if(questionTwo === 'yes' || questionTwo === 'y'){
+var answerTwo = prompt('Do I work for the Army?!').toLowerCase();
+if(answerTwo === 'yes' || answerTwo === 'y'){
 
   alert('Yes I do!');
-  // console.log(questionTwo + ' is the correct answer');
+  // console.log(answerTwo + ' is the correct answer');
 }else {
   alert('Sorry You Guessed Wrong!!');
-  // console.log(questionTwo + ' is incorrect');
+  // console.log(answerTwo + ' is incorrect');
 }
 
-var questionThree = prompt('Do I love Football?!').toLowerCase();
-if(questionThree === 'no' || questionThree === 'n'){
+var answerThree = prompt('Do I love Football?!').toLowerCase();
+if(answerThree === 'no' || answerThree === 'n'){
 
   alert('That\s Right! Go hockey!');
-  // console.log(questionThree + ' is the correct answer');
+  // console.log(answerThree + ' is the correct answer');
 }else {
   alert('Sorry You Guessed Wrong!! Hockey is the best!');
-  // console.log(questionThree + ' is incorrect');
+  // console.log(answerThree + ' is incorrect');
 }
 
-var questionFour = prompt('Do I ride motorcycles?!').toLowerCase();
-if(questionFour === 'yes' || questionFour === 'y'){
+var answerFour = prompt('Do I ride motorcycles?!').toLowerCase();
+if(answerFour === 'yes' || answerFour === 'y'){
   alert('Yes I do! It\'s so freeing!');
-  //console.log(questionFour + ' is the correct answer');
+  //console.log(answerFour + ' is the correct answer');
 }else {
   alert('Sorry You Guessed Wrong!!');
-  // console.log(questionFour + ' is incorrect');
+  // console.log(answerFour + ' is incorrect');
 }
 
-var questionFive = prompt('Have I ever been dumb enough to jump out of an airplane?!').toLowerCase();
-if(questionFive === 'yes' || questionFive === 'y'){
+var answerFive = prompt('Have I ever been dumb enough to jump out of an airplane?!').toLowerCase();
+if(answerFive === 'yes' || answerFive === 'y'){
   alert('Yes I\'m so stupid! Thanks for playing my game ' + userName + '!');
-  // console.log(questionFive + ' is the correct answer');
+  // console.log(answerFive + ' is the correct answer');
 }else {
   alert('Sorry You Guessed Wrong!! I\'m a total idiot! Thanks for playing my game ' + userName + '!');
-  // console.log(questionFive + ' is incorrect');
+  // console.log(answerFive + ' is incorrect');
 }
