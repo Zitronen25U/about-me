@@ -7,13 +7,15 @@
 // question 4 do I ride motorcycles?
 // question 5 have I ever jumped out of an airplane?
 
+var score = 0;
+
 var userName = prompt('What\'s Your Name??');
 alert('Welcome ' + userName + '!! Thank\'s For Stopping bye! We\'re Going to Play a Guessing Game about.... ME!');
 
 var answerOne = prompt('Do I live in Alaska?!').toLowerCase();
 if(answerOne === 'yes' || answerOne === 'y'){
-
   alert('Yes I do!');
+  score++;
   // console.log(answerOne + ' is the correct answer');
 }else {
   alert('Sorry You Guessed Wrong!!');
@@ -22,8 +24,8 @@ if(answerOne === 'yes' || answerOne === 'y'){
 
 var answerTwo = prompt('Do I work for the Army?!').toLowerCase();
 if(answerTwo === 'yes' || answerTwo === 'y'){
-
   alert('Yes I do!');
+  score++;
   // console.log(answerTwo + ' is the correct answer');
 }else {
   alert('Sorry You Guessed Wrong!!');
@@ -32,7 +34,7 @@ if(answerTwo === 'yes' || answerTwo === 'y'){
 
 var answerThree = prompt('Do I love Football?!').toLowerCase();
 if(answerThree === 'no' || answerThree === 'n'){
-
+  score++;
   alert('That\'s Right! Go hockey!');
   // console.log(answerThree + ' is the correct answer');
 }else {
@@ -42,6 +44,7 @@ if(answerThree === 'no' || answerThree === 'n'){
 
 var answerFour = prompt('Do I ride motorcycles?!').toLowerCase();
 if(answerFour === 'yes' || answerFour === 'y'){
+  score++;
   alert('Yes I do! It\'s so freeing!');
   //console.log(answerFour + ' is the correct answer');
 }else {
@@ -51,6 +54,7 @@ if(answerFour === 'yes' || answerFour === 'y'){
 
 var answerFive = prompt('Have I ever been dumb enough to jump out of an airplane?!').toLowerCase();
 if(answerFive === 'yes' || answerFive === 'y'){
+  score++;
   alert('Yes I\'m so stupid! Thanks for playing my game ' + userName + '!');
   // console.log(answerFive + ' is the correct answer');
 }else {
@@ -58,22 +62,22 @@ if(answerFive === 'yes' || answerFive === 'y'){
   // console.log(answerFive + ' is incorrect');
 }
 
-var answerSix = prompt('Guess a number between 1 and 10! You\'ve only got 4 guesses!');
 for(var i = 0; i < 3; i++){
+  var answerSix = prompt('Guess a number between 1 and 10! You\'ve only got 4 guesses!');
+  //console.log(answerSix);
   if(i === 3){
     alert('Sorry, too many attempts! the correct answer was 5!');
     break;
   }
   if(answerSix === '5') {
     alert('You got it right!');
+    score++;
     break;
   } else if (answerSix <5) {
     alert('Too Low');
   } else if (answerSix >5) {
     alert('Too High!');
   }
-  answerSix = prompt('Pick a number between 1 and 10!');
-  console.log(answerSix);
 }
 
 
@@ -81,9 +85,10 @@ var tooLow = ['5', '10', '15', '20'];
 var tooHigh = ['30', '35', '40', '45'];
 
 for (var i = 0; i < 6; i++){
-  var answerSeven = prompt('Guess my age in increments of 5!').toLowerCase();
+  var answerSeven = prompt('Guess my age in increments of 5! You have 5-45!').toLowerCase();
   //console.log(answerSeven);
   if(answerSeven === '25' || answerSeven === 'twenty five'){
+    score++;
     alert('That is correct!');
     break;
   } else{
@@ -101,5 +106,7 @@ for (var i = 0; i < 6; i++){
     }
   }
 }
-
 // Check read me for credit for this loop!
+
+alert(`Thanks for playing my games! You got a total score of ${score} of 7!`);
+//console.log(score);
