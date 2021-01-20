@@ -67,7 +67,7 @@ function questionFive(){
     alert('Yes I\'m so stupid! Thanks for playing my game ' + userName + '!');
     // console.log(answerFive + ' is the correct answer');
   }else {
-    alert('Sorry You Guessed Wrong!! I\'m a total idiot! Thanks for playing my game ' + userName + '!');
+    alert('Sorry You Guessed Wrong!! I\'m a total idiot! ' + userName + '!');
     // console.log(answerFive + ' is incorrect');
   }
 }
