@@ -10,6 +10,7 @@ I built an app with a direct and powerful purpose. My app does all of the things
 * [submission PR](http://xyz.com)
 * [reset style](http://meyerweb.com/eric/tools/css/reset/)
 * [app.js] (Thanks to PJ, Kassie, Aloysious, and Anthony for loop help!!);
+* [app.js] (collaboration with Lorenzo for buddy code lab);
  
 ### Reflections and Comments
 * 
