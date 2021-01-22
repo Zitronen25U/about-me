@@ -132,3 +132,10 @@ questionSeven();
 
 alert(`Thanks for playing my games! You got a total score of ${score} of 7!`);
 //console.log(score);
+
+
+// function addScore(){
+//   alert('that\'s correct!');
+//   score++;
+// }
+// above is an example of simplifying my counter
