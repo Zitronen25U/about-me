@@ -6,6 +6,7 @@
 // question 3 do I love hockey?
 // question 4 do I ride motorcycles?
 // question 5 have I ever jumped out of an airplane?
+// demo for the boys
 
 var score = 0;
 
